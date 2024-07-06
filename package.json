@@ -1,0 +1,21 @@
+{
+  "name": "cypress-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:chrome:spec": "cypress run --browser chrome --spec",
+    "cypress:chrome": "cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.7.3",
+    "cypress-delete-downloads-folder": "^0.0.5",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
